@@ -1,5 +1,7 @@
 PODS:
-  - Habrush (0.1.0)
+  - Gotanda (0.1.0)
+  - Habrush (0.0.1):
+    - Gotanda
 
 DEPENDENCIES:
   - Habrush (from `../`)
@@ -9,7 +11,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Habrush: 519eae8feb48b9064cc0ef3cc91b2612f69624ba
+  Gotanda: dab5ed221387f534bae4f72d09850d3a5bfb8571
+  Habrush: ddd38c4e52598a56d4f88eaa38865e9528623579
 
 PODFILE CHECKSUM: f53216688b55b2518e530eebc5f58a3247773f59
 

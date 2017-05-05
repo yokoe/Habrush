@@ -7,17 +7,21 @@
 //
 
 import UIKit
+import Habrush
 
 class ViewController: UIViewController {
+    @IBOutlet weak var imageView: UIImageView!
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func onDrawButton(_ sender: Any) {
+        let brush = Habrush()
+        brush.color = UIColor.red
+        brush.size = 20
+        brush.softness = 0.7
+        
+        let stroke = HabrushTrail(from: CGPoint(x: 50, y: 50))
+        stroke.add(point: CGPoint(x: 20, y: 20))
+        
+        imageView.image = UIImage(cgImage: HabrushTrailRenderer(size: imageView.frame.size).render(trail: stroke, brush: brush))
     }
 
 }

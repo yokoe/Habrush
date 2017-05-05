@@ -7,24 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		251BF7AF79D083B53F5995E77616AFB5 /* Habrush-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B770881C6F2082A6B0E4EF5EA98369E /* Habrush-dummy.m */; };
 		2D75A4F976944DBD744C5EC522D99773 /* Pods-Habrush_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5444695943389EF9231551EE500FDCE9 /* Pods-Habrush_Tests-dummy.m */; };
-		2EB99E370A241ECD855F8CDCFB9AC7D9 /* Habrush-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B770881C6F2082A6B0E4EF5EA98369E /* Habrush-dummy.m */; };
-		326C106DF9E864E911F4F599406EB20E /* Pods-Habrush_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0833B8FC5A1D52EC2687E9F1C8F7B2C3 /* Pods-Habrush_Example-dummy.m */; };
-		5088A590729772EFF5DC858D352F0FA3 /* Habrush-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EFA87AFCA3AD8AB79DE2D8E516D2EDBD /* Habrush-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70901BA4F79F6A59C780A80F74A62F65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		766A7CCCB7CEDABD808B28E61F8A17D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		7A5373E62E46BD5C0A1B072F0478D062 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605AEBFFA5435F82A095827B3E00828C /* ReplaceMe.swift */; };
-		8295FE6F8BD39BD2D7555330888F3C3B /* Pods-Habrush_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A61A455C3C0FC71D7B52D05CB8FD3EB5 /* Pods-Habrush_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50A68605B784F016CA39DC55D30D35FB /* HabrushTrailRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CF778ECE6DAEB4C1E7C6FC754AA8C6 /* HabrushTrailRenderer.swift */; };
+		528CBA80A268B421510840180BFDB785 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F0144C3D4786B68B73E315758572CA /* Foundation.framework */; };
+		5CDDBB3A7BFCD9E738B926F6F184CF83 /* HabrushTrail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C4CB328018360DA28B2716B5F923A7 /* HabrushTrail.swift */; };
+		5FC80EAA96487E1441725DD1A3D7DE3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F0144C3D4786B68B73E315758572CA /* Foundation.framework */; };
+		6AAED96387550FF9AE003E8464E76A59 /* Pods-Habrush_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0833B8FC5A1D52EC2687E9F1C8F7B2C3 /* Pods-Habrush_Example-dummy.m */; };
+		7B9E6D8E0B882DB49F62BE5E2798415E /* Gotanda.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF72C668F4F34BB316A2EAFDE43900B /* Gotanda.framework */; };
+		982FB44BF25905FBC86CF380FFCB0CE3 /* Habrush-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EFA87AFCA3AD8AB79DE2D8E516D2EDBD /* Habrush-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A23DD9001B5C7DBF65C05FB0467A52C3 /* Gotanda-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42293601C37EDEECCEAAD4F6A1C8617B /* Gotanda-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE31F5D4C09C5C7CA4418400C6CB5572 /* Habrush.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A63034AFF0B77E270EE9E1CD3A46791 /* Habrush.swift */; };
 		B4032C237C0763F2B66782D34D943CDC /* Pods-Habrush_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC7E63BF68A8F6525E63475B6C8750D1 /* Pods-Habrush_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C94E1F6619F408E08590358E0CE658E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B6E977BD181E97F6E37C25DBBC191077 /* Gotanda-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BA30E8BBE5AB1686BED9A050F7FA29 /* Gotanda-dummy.m */; };
+		C0233EE869A0E10531CFD17CA76516D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F0144C3D4786B68B73E315758572CA /* Foundation.framework */; };
+		C94E1F6619F408E08590358E0CE658E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F0144C3D4786B68B73E315758572CA /* Foundation.framework */; };
+		F26C0927DD5A056CA71901D1CE3D7E56 /* Gotanda.h in Headers */ = {isa = PBXBuildFile; fileRef = 19DBB258A954B9D36D8C069B4DD47078 /* Gotanda.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F569F52150B59058EB2C86F64DEC09B5 /* Pods-Habrush_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A61A455C3C0FC71D7B52D05CB8FD3EB5 /* Pods-Habrush_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9CF4234250CDDB9B9770F38CFD4D0EA /* Gotanda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55683DA11C5EF8E2BFEC78B9B265D241 /* Gotanda.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E27D15A2A99153ABAD67EE41A92B46C4 /* PBXContainerItemProxy */ = {
+		5D19C728FC8A675800981DDC81B966D7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9D4253B506860049DB5DC34959A95E0D;
+			remoteGlobalIDString = 4D74F57FA10C7212E69B54434D7314B3;
+			remoteInfo = Gotanda;
+		};
+		65DA17B78F6A483B80A040C76C05CECD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D74F57FA10C7212E69B54434D7314B3;
+			remoteInfo = Gotanda;
+		};
+		F8B4FA2E6DDADDF4E79E5E7719804BB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DDB78EC096143028E1CB1087327C04C;
 			remoteInfo = Habrush;
 		};
 /* End PBXContainerItemProxy section */
@@ -33,51 +55,72 @@
 		08122833029AF879CC18B9A295945943 /* Habrush-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Habrush-prefix.pch"; sourceTree = "<group>"; };
 		0833B8FC5A1D52EC2687E9F1C8F7B2C3 /* Pods-Habrush_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Habrush_Example-dummy.m"; sourceTree = "<group>"; };
 		0EFF26D771A835D0C919E98A31E759A3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		11CA35D22E280E53ED9EE6DA057A9A9B /* Pods-Habrush_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Habrush_Example.modulemap"; sourceTree = "<group>"; };
+		11CA35D22E280E53ED9EE6DA057A9A9B /* Pods-Habrush_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Habrush_Example.modulemap"; sourceTree = "<group>"; };
+		19DBB258A954B9D36D8C069B4DD47078 /* Gotanda.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Gotanda.h; path = Sources/Gotanda.h; sourceTree = "<group>"; };
+		1A63034AFF0B77E270EE9E1CD3A46791 /* Habrush.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Habrush.swift; sourceTree = "<group>"; };
 		21FDCDBC576CEDE3DBE8DCE26BD8D40A /* Pods-Habrush_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Habrush_Example-frameworks.sh"; sourceTree = "<group>"; };
 		384E63538B7B245B907C7908116060C6 /* Habrush.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Habrush.xcconfig; sourceTree = "<group>"; };
-		48CE541FDE96213BC2DDB16E84406916 /* Pods_Habrush_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Habrush_Example.framework; path = "Pods-Habrush_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38C4CB328018360DA28B2716B5F923A7 /* HabrushTrail.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HabrushTrail.swift; sourceTree = "<group>"; };
+		3A555E9DC19252B1AFCB14ABA9986BBE /* Gotanda.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Gotanda.modulemap; sourceTree = "<group>"; };
+		42293601C37EDEECCEAAD4F6A1C8617B /* Gotanda-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Gotanda-umbrella.h"; sourceTree = "<group>"; };
+		4A7BCC75BF71B688664E38B7FF440569 /* Pods_Habrush_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Habrush_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A90CEC770A83692C5C238A38B55B48D /* Pods-Habrush_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Habrush_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		50FA0C436BEB747C3DF863DBC4FC4CF0 /* Gotanda.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Gotanda.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5444695943389EF9231551EE500FDCE9 /* Pods-Habrush_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Habrush_Tests-dummy.m"; sourceTree = "<group>"; };
 		54FBB76B290219F5DB76C1A713CA4951 /* Pods-Habrush_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Habrush_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		55683DA11C5EF8E2BFEC78B9B265D241 /* Gotanda.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Gotanda.swift; path = Sources/Gotanda.swift; sourceTree = "<group>"; };
 		561F7B129CC908FB2099E913BF81BB0D /* Pods-Habrush_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Habrush_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5707D4FD1863918728BC72133D1E93E6 /* Gotanda-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Gotanda-prefix.pch"; sourceTree = "<group>"; };
 		5B770881C6F2082A6B0E4EF5EA98369E /* Habrush-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Habrush-dummy.m"; sourceTree = "<group>"; };
-		605AEBFFA5435F82A095827B3E00828C /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6F1CC28E040833FFE5A45B2F76750C64 /* Habrush.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Habrush.framework; path = Habrush.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62823A36E9AB0F7955472E88741B089F /* Gotanda.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Gotanda.xcconfig; sourceTree = "<group>"; };
+		79BA30E8BBE5AB1686BED9A050F7FA29 /* Gotanda-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Gotanda-dummy.m"; sourceTree = "<group>"; };
 		8280035A9D9226422EE02DA34DED9838 /* Pods-Habrush_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Habrush_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		90C320DE74EB21408F32EE7323BF868B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		983CF9D0544022A20EE19BE86236E87D /* Pods-Habrush_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Habrush_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A61A455C3C0FC71D7B52D05CB8FD3EB5 /* Pods-Habrush_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Habrush_Example-umbrella.h"; sourceTree = "<group>"; };
+		B1CF778ECE6DAEB4C1E7C6FC754AA8C6 /* HabrushTrailRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HabrushTrailRenderer.swift; sourceTree = "<group>"; };
 		B2CBD781DE38E5F564924451743A76A8 /* Pods-Habrush_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Habrush_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B9DAA177681D762B9E3B2EEEC5697C93 /* Pods-Habrush_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Habrush_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BB16C8BFAFFCE4AFCFC05F00CEB26D14 /* Pods-Habrush_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Habrush_Example-resources.sh"; sourceTree = "<group>"; };
-		BD36BCE40F014306D1F4B3A51409BE7C /* Pods-Habrush_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Habrush_Tests.modulemap"; sourceTree = "<group>"; };
+		BD36BCE40F014306D1F4B3A51409BE7C /* Pods-Habrush_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Habrush_Tests.modulemap"; sourceTree = "<group>"; };
 		C2F16B401AD1D21C670DDD3A03E7BEE9 /* Pods-Habrush_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Habrush_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C4F62776167F87421A358EBCADDE039B /* Habrush.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Habrush.modulemap; sourceTree = "<group>"; };
+		C4F62776167F87421A358EBCADDE039B /* Habrush.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Habrush.modulemap; sourceTree = "<group>"; };
+		DCABCCDFB8DBF1F614D6086759CDEB40 /* Pods_Habrush_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Habrush_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCDDA3DCBFA10C9069ADBC7EF20FCE64 /* Habrush.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Habrush.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDB83A3A3CBA5941E064B4896133B2B9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E45EBEB6731C6B89B2796192AADCD2C8 /* Pods-Habrush_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Habrush_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E7A1A5AD7C7BEE5D11065E4EEBF06437 /* Pods-Habrush_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Habrush_Tests-resources.sh"; sourceTree = "<group>"; };
 		EC7E63BF68A8F6525E63475B6C8750D1 /* Pods-Habrush_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Habrush_Tests-umbrella.h"; sourceTree = "<group>"; };
 		EFA87AFCA3AD8AB79DE2D8E516D2EDBD /* Habrush-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Habrush-umbrella.h"; sourceTree = "<group>"; };
 		F0B5D9FAF3B480B1DD1CA3E881FBA34F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FDFBB4421DFC7B67048E68185BDCC61F /* Pods_Habrush_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Habrush_Tests.framework; path = "Pods-Habrush_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7F0144C3D4786B68B73E315758572CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FAF72C668F4F34BB316A2EAFDE43900B /* Gotanda.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Gotanda.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		04A366132B4CE6AEF7D7372272C494B8 /* Frameworks */ = {
+		025D224288CA5B2D7CA1F17B4BB6C8E0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				766A7CCCB7CEDABD808B28E61F8A17D7 /* Foundation.framework in Frameworks */,
+				C0233EE869A0E10531CFD17CA76516D8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		12BEC890E5B5BA37C8544E87CF3F89C4 /* Frameworks */ = {
+		0922BAA06FEA4700AE920B6C1CE45F5E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70901BA4F79F6A59C780A80F74A62F65 /* Foundation.framework in Frameworks */,
+				528CBA80A268B421510840180BFDB785 /* Foundation.framework in Frameworks */,
+				7B9E6D8E0B882DB49F62BE5E2798415E /* Gotanda.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12BF3FCF16250F860FE20935ECA0BF65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FC80EAA96487E1441725DD1A3D7DE3C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,19 +144,26 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		44106A46ABB07A74E5DE20C28E84F899 /* Classes */ = {
+		1E136212EB32D3F7DB79441DC89C000E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				605AEBFFA5435F82A095827B3E00828C /* ReplaceMe.swift */,
+				F7F0144C3D4786B68B73E315758572CA /* Foundation.framework */,
 			);
-			name = Classes;
-			path = Classes;
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4DB3D5657432D558E3711F47C3CA22FD /* Habrush */ = {
+			isa = PBXGroup;
+			children = (
+				F3997189A8F2F4D483AA5E1E1866F58E /* Classes */,
+			);
+			path = Habrush;
 			sourceTree = "<group>";
 		};
 		5C982743AE5C94C79AFDD50C53D1FE9A /* Habrush */ = {
 			isa = PBXGroup;
 			children = (
-				F58C779FB6B33EBECFBD2AC6DAD7B2F6 /* Habrush */,
+				4DB3D5657432D558E3711F47C3CA22FD /* Habrush */,
 				81E894CE3F9EC009C8D89852A18E89F0 /* Support Files */,
 			);
 			name = Habrush;
@@ -125,8 +175,9 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				C8EE57DD49258BF44BCA96C409582597 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				D0A666AD9607E8DBAB4CFA86EB112025 /* Products */,
+				AC25AD207EF0932183229BFF60428768 /* Frameworks */,
+				A6E7C94184C68B787FF15C43A5F31C5A /* Pods */,
+				F027E3B9F65F93F4E5F36FBACAF11BE7 /* Products */,
 				125DC98DF5AB8D7AFC99AFBC3D060920 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -163,6 +214,16 @@
 			path = "Target Support Files/Pods-Habrush_Tests";
 			sourceTree = "<group>";
 		};
+		900951DF2949970AF3410CFF9535B8B3 /* Gotanda */ = {
+			isa = PBXGroup;
+			children = (
+				19DBB258A954B9D36D8C069B4DD47078 /* Gotanda.h */,
+				55683DA11C5EF8E2BFEC78B9B265D241 /* Gotanda.swift */,
+				A81A9B37F21C95FC7A7F12EE3FD4B7F3 /* Support Files */,
+			);
+			path = Gotanda;
+			sourceTree = "<group>";
+		};
 		9844DA50CE827B606F903A9FDB182294 /* Pods-Habrush_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -181,10 +242,33 @@
 			path = "Target Support Files/Pods-Habrush_Example";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		A6E7C94184C68B787FF15C43A5F31C5A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				900951DF2949970AF3410CFF9535B8B3 /* Gotanda */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A81A9B37F21C95FC7A7F12EE3FD4B7F3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A555E9DC19252B1AFCB14ABA9986BBE /* Gotanda.modulemap */,
+				62823A36E9AB0F7955472E88741B089F /* Gotanda.xcconfig */,
+				79BA30E8BBE5AB1686BED9A050F7FA29 /* Gotanda-dummy.m */,
+				5707D4FD1863918728BC72133D1E93E6 /* Gotanda-prefix.pch */,
+				42293601C37EDEECCEAAD4F6A1C8617B /* Gotanda-umbrella.h */,
+				DDB83A3A3CBA5941E064B4896133B2B9 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Gotanda";
+			sourceTree = "<group>";
+		};
+		AC25AD207EF0932183229BFF60428768 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAF72C668F4F34BB316A2EAFDE43900B /* Gotanda.framework */,
+				1E136212EB32D3F7DB79441DC89C000E /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -197,36 +281,47 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		D0A666AD9607E8DBAB4CFA86EB112025 /* Products */ = {
+		F027E3B9F65F93F4E5F36FBACAF11BE7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6F1CC28E040833FFE5A45B2F76750C64 /* Habrush.framework */,
-				48CE541FDE96213BC2DDB16E84406916 /* Pods_Habrush_Example.framework */,
-				FDFBB4421DFC7B67048E68185BDCC61F /* Pods_Habrush_Tests.framework */,
+				50FA0C436BEB747C3DF863DBC4FC4CF0 /* Gotanda.framework */,
+				DCDDA3DCBFA10C9069ADBC7EF20FCE64 /* Habrush.framework */,
+				DCABCCDFB8DBF1F614D6086759CDEB40 /* Pods_Habrush_Example.framework */,
+				4A7BCC75BF71B688664E38B7FF440569 /* Pods_Habrush_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+		F3997189A8F2F4D483AA5E1E1866F58E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+				1A63034AFF0B77E270EE9E1CD3A46791 /* Habrush.swift */,
+				38C4CB328018360DA28B2716B5F923A7 /* HabrushTrail.swift */,
+				B1CF778ECE6DAEB4C1E7C6FC754AA8C6 /* HabrushTrailRenderer.swift */,
 			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		F58C779FB6B33EBECFBD2AC6DAD7B2F6 /* Habrush */ = {
-			isa = PBXGroup;
-			children = (
-				44106A46ABB07A74E5DE20C28E84F899 /* Classes */,
-			);
-			name = Habrush;
-			path = Habrush;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		351BDB15CDBF16A1E009645F72315FBE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A23DD9001B5C7DBF65C05FB0467A52C3 /* Gotanda-umbrella.h in Headers */,
+				F26C0927DD5A056CA71901D1CE3D7E56 /* Gotanda.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		579526951D62DC58171B427229589DB8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				982FB44BF25905FBC86CF380FFCB0CE3 /* Habrush-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		609FA18F6B4B96B552A54191794CB63F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -235,19 +330,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B90325AC5643397C70A8E38DE4BB333F /* Headers */ = {
+		79A99D87ED10E6CA26BBB800603C8C38 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5088A590729772EFF5DC858D352F0FA3 /* Habrush-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C9A3F0075E1BB74BD22073897F0E7402 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8295FE6F8BD39BD2D7555330888F3C3B /* Pods-Habrush_Example-umbrella.h in Headers */,
+				F569F52150B59058EB2C86F64DEC09B5 /* Pods-Habrush_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,42 +355,61 @@
 			);
 			name = "Pods-Habrush_Tests";
 			productName = "Pods-Habrush_Tests";
-			productReference = FDFBB4421DFC7B67048E68185BDCC61F /* Pods_Habrush_Tests.framework */;
+			productReference = 4A7BCC75BF71B688664E38B7FF440569 /* Pods_Habrush_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		1ACF40B171101F4E33DB442BC7E557F9 /* Pods-Habrush_Example */ = {
+		11B829341451E3443B15F62301804F7B /* Pods-Habrush_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7704DC56D6C402CF54258867624E65F8 /* Build configuration list for PBXNativeTarget "Pods-Habrush_Example" */;
+			buildConfigurationList = C666413E3BA70F5B688D444DB150BBB0 /* Build configuration list for PBXNativeTarget "Pods-Habrush_Example" */;
 			buildPhases = (
-				61AD923FE12D472261DF6B202EF86408 /* Sources */,
-				12BEC890E5B5BA37C8544E87CF3F89C4 /* Frameworks */,
-				C9A3F0075E1BB74BD22073897F0E7402 /* Headers */,
+				25DF93AEA82A4668D9B44632044DD4A9 /* Sources */,
+				025D224288CA5B2D7CA1F17B4BB6C8E0 /* Frameworks */,
+				79A99D87ED10E6CA26BBB800603C8C38 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7447EEAF51E829431CEC013DA54D3ECA /* PBXTargetDependency */,
+				52BD0ED161F978FC4C035AE152081281 /* PBXTargetDependency */,
+				5E173A0769E2347BFEED632069F3B81C /* PBXTargetDependency */,
 			);
 			name = "Pods-Habrush_Example";
 			productName = "Pods-Habrush_Example";
-			productReference = 48CE541FDE96213BC2DDB16E84406916 /* Pods_Habrush_Example.framework */;
+			productReference = DCABCCDFB8DBF1F614D6086759CDEB40 /* Pods_Habrush_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9D4253B506860049DB5DC34959A95E0D /* Habrush */ = {
+		4D74F57FA10C7212E69B54434D7314B3 /* Gotanda */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8513400831CDF48AA82CFC07AED02084 /* Build configuration list for PBXNativeTarget "Habrush" */;
+			buildConfigurationList = A28CA63D32D6C68F7DB2BFBAF5F5EBD1 /* Build configuration list for PBXNativeTarget "Gotanda" */;
 			buildPhases = (
-				0653BBD1283AC05A16277D7975BABDF3 /* Sources */,
-				04A366132B4CE6AEF7D7372272C494B8 /* Frameworks */,
-				B90325AC5643397C70A8E38DE4BB333F /* Headers */,
+				9735A079FC9303E52ACFF689956A982E /* Sources */,
+				12BF3FCF16250F860FE20935ECA0BF65 /* Frameworks */,
+				351BDB15CDBF16A1E009645F72315FBE /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = Gotanda;
+			productName = Gotanda;
+			productReference = 50FA0C436BEB747C3DF863DBC4FC4CF0 /* Gotanda.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6DDB78EC096143028E1CB1087327C04C /* Habrush */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D430522E587B57605DF9975F7CDCAE8 /* Build configuration list for PBXNativeTarget "Habrush" */;
+			buildPhases = (
+				5BEDDA46C2BA9EA974942E43F66FC863 /* Sources */,
+				0922BAA06FEA4700AE920B6C1CE45F5E /* Frameworks */,
+				579526951D62DC58171B427229589DB8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBDF55941DD0C9665F153DC8D6905B5E /* PBXTargetDependency */,
+			);
 			name = Habrush;
 			productName = Habrush;
-			productReference = 6F1CC28E040833FFE5A45B2F76750C64 /* Habrush.framework */;
+			productReference = DCDDA3DCBFA10C9069ADBC7EF20FCE64 /* Habrush.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -323,32 +429,44 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = D0A666AD9607E8DBAB4CFA86EB112025 /* Products */;
+			productRefGroup = F027E3B9F65F93F4E5F36FBACAF11BE7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9D4253B506860049DB5DC34959A95E0D /* Habrush */,
-				1ACF40B171101F4E33DB442BC7E557F9 /* Pods-Habrush_Example */,
+				4D74F57FA10C7212E69B54434D7314B3 /* Gotanda */,
+				6DDB78EC096143028E1CB1087327C04C /* Habrush */,
+				11B829341451E3443B15F62301804F7B /* Pods-Habrush_Example */,
 				0FFEEE4E010C779F47BAA545837122C4 /* Pods-Habrush_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0653BBD1283AC05A16277D7975BABDF3 /* Sources */ = {
+		25DF93AEA82A4668D9B44632044DD4A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EB99E370A241ECD855F8CDCFB9AC7D9 /* Habrush-dummy.m in Sources */,
-				7A5373E62E46BD5C0A1B072F0478D062 /* ReplaceMe.swift in Sources */,
+				6AAED96387550FF9AE003E8464E76A59 /* Pods-Habrush_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		61AD923FE12D472261DF6B202EF86408 /* Sources */ = {
+		5BEDDA46C2BA9EA974942E43F66FC863 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				326C106DF9E864E911F4F599406EB20E /* Pods-Habrush_Example-dummy.m in Sources */,
+				AE31F5D4C09C5C7CA4418400C6CB5572 /* Habrush.swift in Sources */,
+				5CDDBB3A7BFCD9E738B926F6F184CF83 /* HabrushTrail.swift in Sources */,
+				50A68605B784F016CA39DC55D30D35FB /* HabrushTrailRenderer.swift in Sources */,
+				251BF7AF79D083B53F5995E77616AFB5 /* Habrush-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9735A079FC9303E52ACFF689956A982E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6E977BD181E97F6E37C25DBBC191077 /* Gotanda-dummy.m in Sources */,
+				F9CF4234250CDDB9B9770F38CFD4D0EA /* Gotanda.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,18 +481,64 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7447EEAF51E829431CEC013DA54D3ECA /* PBXTargetDependency */ = {
+		52BD0ED161F978FC4C035AE152081281 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Gotanda;
+			target = 4D74F57FA10C7212E69B54434D7314B3 /* Gotanda */;
+			targetProxy = 65DA17B78F6A483B80A040C76C05CECD /* PBXContainerItemProxy */;
+		};
+		5E173A0769E2347BFEED632069F3B81C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Habrush;
-			target = 9D4253B506860049DB5DC34959A95E0D /* Habrush */;
-			targetProxy = E27D15A2A99153ABAD67EE41A92B46C4 /* PBXContainerItemProxy */;
+			target = 6DDB78EC096143028E1CB1087327C04C /* Habrush */;
+			targetProxy = F8B4FA2E6DDADDF4E79E5E7719804BB7 /* PBXContainerItemProxy */;
+		};
+		FBDF55941DD0C9665F153DC8D6905B5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Gotanda;
+			target = 4D74F57FA10C7212E69B54434D7314B3 /* Gotanda */;
+			targetProxy = 5D19C728FC8A675800981DDC81B966D7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		007EA33539AF94189C61F5B457B2CE39 /* Debug */ = {
+		06712CCE31A100A8F611D5F4A5B7507C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9DAA177681D762B9E3B2EEEC5697C93 /* Pods-Habrush_Example.debug.xcconfig */;
+			baseConfigurationReference = 384E63538B7B245B907C7908116060C6 /* Habrush.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Habrush/Habrush-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Habrush/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Habrush/Habrush.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Habrush;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		20C1486014312972D11CB6D3404D1C05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2CBD781DE38E5F564924451743A76A8 /* Pods-Habrush_Tests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -388,30 +552,63 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Habrush_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Habrush_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Habrush_Example/Pods-Habrush_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Habrush_Tests/Pods-Habrush_Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Habrush_Example;
+				PRODUCT_NAME = Pods_Habrush_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		087620A39426DF1DF730AA36A90DC75B /* Release */ = {
+		2B489CC83E4634097F01D0C8F8CA7902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2F16B401AD1D21C670DDD3A03E7BEE9 /* Pods-Habrush_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Habrush_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Habrush_Tests/Pods-Habrush_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Habrush_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		334902FA9245DA16AED951DC118934E3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E45EBEB6731C6B89B2796192AADCD2C8 /* Pods-Habrush_Example.release.xcconfig */;
 			buildSettings = {
@@ -429,7 +626,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-Habrush_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Habrush_Example/Pods-Habrush_Example.modulemap";
@@ -449,7 +646,7 @@
 			};
 			name = Release;
 		};
-		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+		4E487F173E6C9664F4E9E26B9635D23C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -489,7 +686,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -497,7 +694,150 @@
 			};
 			name = Debug;
 		};
-		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+		53046DC864F41811EC5F8C30CFEFCEF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 384E63538B7B245B907C7908116060C6 /* Habrush.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Habrush/Habrush-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Habrush/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Habrush/Habrush.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Habrush;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6C3D8D849057E61B71138BB8AFEF2F19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62823A36E9AB0F7955472E88741B089F /* Gotanda.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Gotanda/Gotanda-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Gotanda/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Gotanda/Gotanda.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Gotanda;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7E91EBEDE44762E3E5D49F30DDE4DEAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9DAA177681D762B9E3B2EEEC5697C93 /* Pods-Habrush_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Habrush_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Habrush_Example/Pods-Habrush_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Habrush_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8CD9AE18511C65DA3E7A6D030DE3A82F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62823A36E9AB0F7955472E88741B089F /* Gotanda.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Gotanda/Gotanda-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Gotanda/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Gotanda/Gotanda.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Gotanda;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -533,152 +873,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		7ADB5A0ADE426E1618663B585D41AE9F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 384E63538B7B245B907C7908116060C6 /* Habrush.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Habrush/Habrush-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Habrush/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Habrush/Habrush.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Habrush;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		809F6A0EC75466576EAA5C735E7F0EBF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B2CBD781DE38E5F564924451743A76A8 /* Pods-Habrush_Tests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Habrush_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Habrush_Tests/Pods-Habrush_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Habrush_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		97C0E77D43B076106A6C6620CDBFF2B1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 384E63538B7B245B907C7908116060C6 /* Habrush.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Habrush/Habrush-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Habrush/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Habrush/Habrush.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Habrush;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		DE4AC20928531CE183E488E445E65D04 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2F16B401AD1D21C670DDD3A03E7BEE9 /* Pods-Habrush_Tests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Habrush_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Habrush_Tests/Pods-Habrush_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Habrush_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -688,8 +887,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
-				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+				4E487F173E6C9664F4E9E26B9635D23C /* Debug */,
+				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -697,26 +896,35 @@
 		3BE127A9457435BF08D72498E0157816 /* Build configuration list for PBXNativeTarget "Pods-Habrush_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				809F6A0EC75466576EAA5C735E7F0EBF /* Debug */,
-				DE4AC20928531CE183E488E445E65D04 /* Release */,
+				20C1486014312972D11CB6D3404D1C05 /* Debug */,
+				2B489CC83E4634097F01D0C8F8CA7902 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7704DC56D6C402CF54258867624E65F8 /* Build configuration list for PBXNativeTarget "Pods-Habrush_Example" */ = {
+		8D430522E587B57605DF9975F7CDCAE8 /* Build configuration list for PBXNativeTarget "Habrush" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				007EA33539AF94189C61F5B457B2CE39 /* Debug */,
-				087620A39426DF1DF730AA36A90DC75B /* Release */,
+				53046DC864F41811EC5F8C30CFEFCEF7 /* Debug */,
+				06712CCE31A100A8F611D5F4A5B7507C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8513400831CDF48AA82CFC07AED02084 /* Build configuration list for PBXNativeTarget "Habrush" */ = {
+		A28CA63D32D6C68F7DB2BFBAF5F5EBD1 /* Build configuration list for PBXNativeTarget "Gotanda" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7ADB5A0ADE426E1618663B585D41AE9F /* Debug */,
-				97C0E77D43B076106A6C6620CDBFF2B1 /* Release */,
+				6C3D8D849057E61B71138BB8AFEF2F19 /* Debug */,
+				8CD9AE18511C65DA3E7A6D030DE3A82F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C666413E3BA70F5B688D444DB150BBB0 /* Build configuration list for PBXNativeTarget "Pods-Habrush_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E91EBEDE44762E3E5D49F30DDE4DEAD /* Debug */,
+				334902FA9245DA16AED951DC118934E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
