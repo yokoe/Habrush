@@ -1,7 +1,7 @@
 import UIKit
 
 public class HabrushTrail: NSObject {
-    var points = [CGPoint]()
+    public var points = [CGPoint]()
     private var startedAt: NSDate
     
     public init(from: CGPoint) {
