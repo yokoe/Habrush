@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Habrush'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'Brush rendering library for Swift'
 
 # This description is used to generate tags and improve search results.
