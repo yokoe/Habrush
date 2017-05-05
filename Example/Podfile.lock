@@ -1,0 +1,16 @@
+PODS:
+  - Habrush (0.1.0)
+
+DEPENDENCIES:
+  - Habrush (from `../`)
+
+EXTERNAL SOURCES:
+  Habrush:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Habrush: 519eae8feb48b9064cc0ef3cc91b2612f69624ba
+
+PODFILE CHECKSUM: f53216688b55b2518e530eebc5f58a3247773f59
+
+COCOAPODS: 1.2.1

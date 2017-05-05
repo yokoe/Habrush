@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Habrush'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of Habrush.'
+  s.version          = '0.0.1'
+  s.summary          = 'Brush rendering library for Swift'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +18,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+A library to render path as brush stroke.
                        DESC
 
-  s.homepage         = 'https://github.com/git/Habrush'
+  s.homepage         = 'https://github.com/yokoe/Habrush'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'git' => 'kreuz45@kreuz45.com' }
-  s.source           = { :git => 'https://github.com/git/Habrush.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'git' => 'info@kreuz45.com' }
+  s.source           = { :git => 'https://github.com/yokoe/Habrush.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/croquette0212'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'Habrush/Classes/**/*'
   
@@ -38,5 +38,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'Gotanda'
 end

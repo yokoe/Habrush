@@ -1,0 +1,22 @@
+{
+  "name": "Habrush",
+  "version": "0.1.0",
+  "summary": "A short description of Habrush.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/git/Habrush",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "git": "kreuz45@kreuz45.com"
+  },
+  "source": {
+    "git": "https://github.com/git/Habrush.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Habrush/Classes/**/*"
+}

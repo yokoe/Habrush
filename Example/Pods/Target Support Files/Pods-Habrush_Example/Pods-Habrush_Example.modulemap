@@ -1,0 +1,6 @@
+framework module Pods_Habrush_Example {
+  umbrella header "Pods-Habrush_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
