@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Habrush_Example' do
+  pod 'Habrush', :path => '../'
+
+  target 'Habrush_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
